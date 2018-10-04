@@ -1,0 +1,28 @@
+@media screen and (min-width: 992px) {
+body{
+    background-image: url("login.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+}
+@media screen and (max-width: 992px) {
+body{
+    background-image: url("login.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+}
+h2{
+  font-family: 'rez';
+  font-size: 100px;
+}
+.btn{
+  background-color: #4474b2;
+}
+.btn:hover {
+  background-color: #97beef;
+}
+p{
+  font-family: 'Muli';
+  font-size: 20px;
+}

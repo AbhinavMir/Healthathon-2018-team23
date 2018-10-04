@@ -1,0 +1,27 @@
+@media screen and (min-width: 992px) {
+body{
+    background-image: url("land.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+}
+@media screen and (max-width: 992px) {
+body{
+    background-image: url("land.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+}
+h2{
+  font-family: 'Varela', sans-serif;
+}
+.btn{
+  background-color: #4474b2;
+}
+.btn:hover {
+  background-color: #97beef;
+}
+p{
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+}
