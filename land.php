@@ -28,7 +28,7 @@
           <div class="col l8 s8 m7">
             <img src="neure2.png" alt="logo" style="width:350px;height:150px;">
     <!--<h2 class="header"><b>neure</b></h2>-->
-    <h3>The website neure′ helps you keep all your medical records updated from your concerned doctors and hospitals.<h3>
+    <h3>We help you keep all your medical records updated from your concerned doctors and hospitals-On the go.<h3>
 
       <a class="waves-effect waves-light btn btn-large" href="login.php">Login</a>
       <a class="waves-effect waves-light btn btn-large" href="register.php">Signup</a>
