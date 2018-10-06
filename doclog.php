@@ -1,10 +1,8 @@
 <?php
 // Initialize the session
 session_start();
-
-// Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: welcome.php");
+    header("location: doctor.php");
     exit;
 }
 
@@ -64,7 +62,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;
 
                             // Redirect user to welcome page
-                            header("location: welcome.php");
+                            header("location: doctor.php");
                         } else{
                             // Display an error message if password is not valid
                             $password_err = "The password you entered was not valid.";
@@ -103,10 +101,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
     <div class="wrapper"><center>
         <h2>Login</h2>
-        <p>Please fill in your credentials to login.</p><br>
+        <p>Welcome,Doctor</p><br>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                <label>Username</label>
+                <label>Doctor I.D. number</label>
                 <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
                 <span class="help-block"><?php echo $username_err; ?></span>
             </div>
@@ -118,9 +116,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
-            <p>Don't have an account? <a href="register.php"><br>Sign up now</a>.</p>
+            <p>Don't have an account? <a href="#"><br>Contact Us now</a>.</p>
 <br>
-            <p>Are you a doctor?<a href="doclog.php"><br>Login via Doctor's login</a>.</p>
+            <p>Are you a patient?<a href="login.php"><br>Go back to patient sign-in</a>.</p>
         </form>
     </div>
 </body>

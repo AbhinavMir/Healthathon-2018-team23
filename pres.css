@@ -1,0 +1,12 @@
+body{
+  background-image: url("land.jpg")
+}
+.card{
+  border: black;
+}
+.card-title{
+  color: black;
+}
+.btn{
+  background-color: #255671
+}

@@ -83,24 +83,24 @@ Hyper allergy
 
 <div id="Tokyo" class="tabcontent">
 <pre>
-  Prester
-  Nexium
-  Advair Diskus
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut
+ollit anim id est laborum.
 </pre>
 </div>
 </div>
 </div>
-<div class="row navbar align-center">
+<div class="row">
   <div class="col l3">
   <a class="waves-effect waves-light btn-large">Leave feedback</a></div>
   <div class="col l3">
-<a class="waves-effect waves-light btn-large">prescriptions</a>
+<a class="waves-effect waves-light btn-large">All prescriptions</a>
 </div>
+<<div class="col l2"></div>
 <div class="col l3">
-<a class="waves-effect waves-light btn-large">Receipts</a>
-</div>
-<div class="col l3">
-<a href="logout.php" class="waves-effect waves-light btn-large">Sign Out</a><br>
+<a class="waves-effect waves-light btn-large">All Receipts</a>
 </div>
 </div>
 </div>
@@ -175,7 +175,7 @@ function newElement() {
   }
 }
 </script><center>
-
+<a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a><br>
 
 </body>
 </html>

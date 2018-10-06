@@ -36,25 +36,12 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <br>
             <div class="col s3 m2 l1 ">  </div>
             <div class="col s3 m2 l5 ">
-              <h5><?php echo htmlspecialchars($_SESSION["username"]); ?></h5>
-              <h6><?php echo htmlspecialchars($_SESSION["address"]); ?></h6>
+              <h5>No. 0934<br>Jacob Peralta</h5>
             </div>
           </div>
           <div class="row">
             <div class="col l3">
 
-<div id="myDIV" class="header">
-  <h6 style="margin:5px;color:Black;font-family:muli;font-weight:900">Appointments</h6>
-  <input type="text" id="myInput" placeholder="Dr...">
-  <span onclick="newElement()" class="addBtn">Add</span>
-</div>
-<ul id="myUL">
-  <li class="checked">Doctor 1: Date</li>
-  <li>Doctor 2:Date</li>
-  <li>Doctor 3:Date</li>
-  <li>Doctor 4:Date</li>
-  <li>Doctor 5:Date</li>
-</ul>
             </div>
             <div class="col s3 m2 l7 ">
 <div class="tab">
@@ -77,30 +64,27 @@ Blood glucose:107/140
   <pre>
 Diabetes
 High pressure
-Hyper allergy
+Sore throat
 </pre>
 </div>
 
 <div id="Tokyo" class="tabcontent">
 <pre>
-  Prester
-  Nexium
-  Advair Diskus
+  Crocin,Cough Syrp
+<a href="#">Add medcines</a>
 </pre>
 </div>
 </div>
 </div>
-<div class="row navbar align-center">
+<div class="row">
   <div class="col l3">
   <a class="waves-effect waves-light btn-large">Leave feedback</a></div>
-  <div class="col l3">
-<a class="waves-effect waves-light btn-large">prescriptions</a>
+  <div class="col l4">
+<a class="waves-effect waves-light btn-large">All prescriptions</a>
 </div>
-<div class="col l3">
-<a class="waves-effect waves-light btn-large">Receipts</a>
-</div>
-<div class="col l3">
-<a href="logout.php" class="waves-effect waves-light btn-large">Sign Out</a><br>
+<<div class="col l2"></div>
+<div class="col l4">
+<a class="waves-effect waves-light btn-large">All Receipts</a>
 </div>
 </div>
 </div>
@@ -175,7 +159,7 @@ function newElement() {
   }
 }
 </script><center>
-
+<a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a><br>
 
 </body>
 </html>
